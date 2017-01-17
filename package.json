@@ -1,0 +1,19 @@
+{
+  "name": "req-header-parser",
+  "version": "1.0.0",
+  "description": "Request Header Parser Project for FreeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "req-header-parser-rv"
+  },
+  "author": "rvrvrv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
