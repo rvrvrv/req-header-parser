@@ -6,10 +6,9 @@ var port = process.env.PORT || 8080; //Set port
 function parseIt(headers) {
     //Create object to return at end of function
     var d = headers;
-    console.log('d: ' + d);
-    
+
     var parsedObj = {
-        'ipaddress': d['x-forwarded-for'], //IP Address directly from header
+        'ipaddress': d['x-forwarded-for'], //IP address directly from header
         'language': '',
         'software': ''
     };
