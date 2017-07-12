@@ -1,6 +1,9 @@
 {
   "name": "req-header-parser",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.11.1"
+  },
   "description": "Request Header Parser Project for FreeCodeCamp",
   "main": "index.js",
   "scripts": {
